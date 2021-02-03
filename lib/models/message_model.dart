@@ -42,8 +42,8 @@ List<Message> chats = [
   Message(
     sender: james,
     time: '5:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
-    isLiked: false,
+    text: 'Hey, how\'s it going? i have really missed you',
+    isLiked: true,
     unread: true,
   ),
   Message(
@@ -56,7 +56,7 @@ List<Message> chats = [
   Message(
     sender: john,
     time: '5:37 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Hey, how\'s it going?Hoping you are doing great?',
     isLiked: false,
     unread: false,
   ),
@@ -70,7 +70,8 @@ List<Message> chats = [
   Message(
     sender: kamau,
     time: '5:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text:
+        'Hey, how\'s it going? What did you do its really nice to talk to you?',
     isLiked: false,
     unread: false,
   ),
@@ -87,5 +88,49 @@ List<Message> chats = [
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
     unread: false,
+  ),
+];
+List<Message> messages = [
+  Message(
+    sender: james,
+    time: '5:30 Pm',
+    text: 'Hey, how\'s it going? What did you do today?',
+    isLiked: true,
+    unread: true,
+  ),
+  Message(
+    sender: currentUser,
+    time: '4:30 Pm',
+    text: 'Just walked my doge. She was super duper cute.The best Puper!!',
+    isLiked: false,
+    unread: true,
+  ),
+  Message(
+    sender: james,
+    time: '3:30 Pm',
+    text: 'Hey, how\'s it going? What did you do today?',
+    isLiked: true,
+    unread: true,
+  ),
+  Message(
+    sender: currentUser,
+    time: '3:25 Pm',
+    text: 'Hey, how\'s it going? What did you do today?',
+    isLiked: true,
+    unread: true,
+  ),
+  Message(
+    sender: james,
+    time: '3:20 Pm',
+    text: 'Hey, how\'s it going? What did you do today?',
+    isLiked: false,
+    unread: true,
+  ),
+  Message(
+    sender: currentUser,
+    time: '3:19 Pm',
+    text: 'Hey, how\'s it going? What did you do today?',
+    isLiked: true,
+    unread: true,
   ),
 ];
